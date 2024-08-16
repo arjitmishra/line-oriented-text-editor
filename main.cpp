@@ -120,7 +120,8 @@ void lineEditor(const string& filename) {
     }
 
     string line;
-    while (getline(file, line)) {
+    while (getline(file, line)) 
+    {
         lines.push_back(line);
     }
 	
